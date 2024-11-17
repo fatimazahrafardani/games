@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+* {
+  background-color: rgb(72, 14, 244);
+}
+
+.app {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.game {
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.score {
+  text-align: end;
+  font-size: 50px;
+}
+
+.game img {
+  width: 70px;
+  height: 70px;
+}
+
+.jeu{
+  width: 70px;
+  height: 70px;
+}
